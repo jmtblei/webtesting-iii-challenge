@@ -6,7 +6,7 @@ import Dashboard from "./Dashboard";
 
 
 describe("<Dashboard/>", () => {
-    it.skip("should render Dashboard without crashing", () => {
+    it("should render Dashboard without crashing", () => {
         render(<Dashboard/>);
     });
 });
